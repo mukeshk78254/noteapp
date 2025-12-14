@@ -34,12 +34,7 @@ export const useNoteProgram = () => {
     if (!provider) return null;
 
     try {
-      // For Anchor 0.30+, we need to pass the IDL with the address
-      const idlWithAddress = {
-        ...IDL,
-        address: PROGRAM_ID.toString(),
-      };
-      return new Program(idlWithAddress as any, provider);
+      return new Program(IDL as any, provider);
     } catch (error) {
       console.error("Error creating program:", error);
       return null;
