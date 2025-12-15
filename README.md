@@ -42,12 +42,6 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 
-## 🌐 Environment Variables
-
-```env
-NEXT_PUBLIC_SOLANA_NETWORK=devnet
-NEXT_PUBLIC_PROGRAM_ID=De4iRbmkeGWDR7b1dEKDXrgQSm1iE2YRLUZdDF4Y8chZ
-```
 
 ## 📝 Program Instructions
 
