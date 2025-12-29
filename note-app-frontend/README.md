@@ -48,7 +48,7 @@ The IDL file is generated when you build your Anchor program with `anchor build`
 Make sure the `PROGRAM_ID` in `src/utils/constants.ts` matches your deployed program:
 ```typescript
 export const PROGRAM_ID = new PublicKey(
-  "CmGDsQogstiHGi69wSBU2UDVqDYrm1uqvhoBcKgX5Aji"
+ // public key
 );
 ```
 
